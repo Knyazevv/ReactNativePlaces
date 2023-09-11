@@ -66,7 +66,10 @@ useEffect(() => {
             style={styles.image}
             source={{ uri: item.imageUrl }}
           />
-          <PlaceItem place={item} />
+          <View>
+            <Text>{item.title}</Text>
+            <Text>{item.address}</Text>   
+            </View> 
         </View>
           </TouchableOpacity>
       )}

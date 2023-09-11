@@ -2,9 +2,6 @@ import { Image, Pressable, StyleSheet, Text, View } from "react-native";
 import React from 'react';
 
 
-
-
-
 function PlaceItem({ place, onSelect }) {
   return (
     <Pressable>
