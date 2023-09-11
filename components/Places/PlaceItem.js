@@ -11,8 +11,7 @@ function PlaceItem({ place, onSelect }) {
       <Image source={{ uri: place.imageUrl }} />
       <View>
         <Text>{place.title}</Text>
-        <Text>{place.address}</Text>
-        
+        <Text>{place.address}</Text>        
       </View>
     </Pressable>
   );

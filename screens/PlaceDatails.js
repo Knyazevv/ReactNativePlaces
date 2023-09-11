@@ -1,7 +1,7 @@
 import Details from '../components/Places/Datails';
 
-function AllPlaces() {
+function PlaceDatail() {
   return <Details />;
 }
 
-export default AllPlaces;
+export default PlaceDatail;
